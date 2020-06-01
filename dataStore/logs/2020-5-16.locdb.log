@@ -1,0 +1,2 @@
+[9:25:57] ~ E: locdb.constructor() (initialization) ~> Database "example" was listed in configuration but its file seems to be missing!
+[9:25:57] ~ N: locdb.constructor() (initialization) ~> Automatically creating a new file, but data is gone!

@@ -1,0 +1,56 @@
+body {
+    background-image: linear-gradient( 110.9deg,  rgba(44,221,239,1) 1.1%, rgba(14,191,210,1) 37.6%, rgba(8,127,140,1) 99.2% );
+}
+
+div.content {
+    position: static;
+    min-height: unset;
+    height: calc(100vh - 140px);
+}
+
+div.footer,
+div.footer a {
+    color: black;
+}
+
+div.footer a {
+    text-decoration: underline;
+}
+
+div.footer,
+div.navbar {
+    background-color: transparent;
+}
+
+.box {
+    display: block;
+    width: 400px;
+    height: 325px;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box h1 {
+    text-align: center;
+    margin: 25px auto 50px auto;
+    font-size: 35px;
+}
+
+.box p {
+    margin-bottom: 50px;
+}
+
+.box a {
+    width: 100%;
+    text-align: center;
+    color: black;
+    display: block;
+}

@@ -1,0 +1,13 @@
+<div class="box">
+    <h1><?var:user.firstname?> <?var:user.lastname?></h1>
+    <p>
+        <b>username:</b> <?var:user.username?><br>
+        <b>email:</b> <?var:user.email?><br>
+        <b>firstname:</b> <?var:user.firstname?><br>
+        <b>lastname:</b> <?var:user.lastname?><br>
+    </p>
+
+    <a noajax onclick="signout()" authenticated>logout</a>
+</div>
+
+<style localsrc="css/myaccount.css"></style>

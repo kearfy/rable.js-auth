@@ -1,0 +1,12 @@
+<a href="/" class="brand"><?app:name?></a>
+
+<label for="toggle">☰</label>
+<input type="checkbox" id="toggle">
+
+<div class="links">
+    <a href="https://github.com/kearfy/rable.js-auth" target="_blank">github</a>
+    <a href="https://npmjs.com/package/rable.js-auth" target="_blank">npm</a>
+    <a href="login" visitor>login</a>
+    <a href="myaccount" authenticated>My account</a>
+    <a noajax onclick="signout()" authenticated>logout</a>
+</div>

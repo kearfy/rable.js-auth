@@ -1,0 +1,17 @@
+{
+    "callbacks": null,
+    "apiController": null,
+    "rableInstance": null,
+    "systemIdentifier": null,
+
+    "userTokenSecret": null,
+    "cookieName": null,
+    "cookieOpts": {
+        "Path": "/"
+    },
+    "returnToken": true,
+    "api": "auth",
+    "tokenExpiration": "1h",
+    "allowNoExpiration": false,
+    "autoRefresh": true
+}

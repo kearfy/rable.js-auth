@@ -1,0 +1,2 @@
+<p>&copy; <span class="brand"><?app:name?></span> <span class="current-year"></span>, All rights served.</p>
+<p>rable.js, rable.js-api and rable.js-auth are projects by <a href="https://michadevries.nl" target="_blank">Micha de Vries</a>.</p>

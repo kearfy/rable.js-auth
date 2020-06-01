@@ -1,0 +1,20 @@
+{
+  "name": "rable.js-auth",
+  "version": "1.0.0",
+  "description": "The official authentication extention for rable.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kearfy/rable.js-auth.git"
+  },
+  "author": "Micha de Vries",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/kearfy/rable.js-auth/issues"
+  },
+  "homepage": "https://github.com/kearfy/rable.js-auth#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}

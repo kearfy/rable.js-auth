@@ -1,0 +1,18 @@
+[
+    {
+        "uuid": "5eda2534-9758-11ea-bb37-0242ac130002",
+        "username": "johndoe",
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "johndoe@email.com",
+        "password": "$2b$10$UJLjVzd2YQkD2lGZOu0.OuIXweypBnImB69jqKni/WVlLDE42BSc6"
+    },
+    {
+        "uuid": "b7ab4510-9818-11ea-bb37-0242ac130002",
+        "username": "marydoe",
+        "firstname": "Mary",
+        "lastname": "Doe",
+        "email": "marydoe@email.com",
+        "password": "$2b$10$QzETxBu94pGlzHGKRQpKrefn5qVybc90XIqWqNbmjRajFv7j1gccK"
+    }
+]

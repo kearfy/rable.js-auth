@@ -1,0 +1,5 @@
+<script type="text/javascript">
+    location.replace('./<?app:version?>/');
+</script>
+
+<p>Check out the latest docs <a href="./<?app:version?>/">here</a>.</p>

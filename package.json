@@ -1,0 +1,31 @@
+{
+  "name": "rablejs-auth-example",
+  "version": "1.0.0",
+  "description": "Rable.js-auth is the official authentication extension to rable.js",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "clean-jsdoc-theme": "^2.2.11",
+    "locdb": "^1.1.0",
+    "rable.js": "^1.0.13",
+    "rable.js-api": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "gendoc": "jsdoc -c jsdoc.json --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kearfy/rable.js-auth.git",
+    "directory": "lib"
+  },
+  "author": "Micha de Vries",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/kearfy/rable.js-auth/issues"
+  },
+  "homepage": "https://github.com/kearfy/rable.js-auth#readme"
+}
