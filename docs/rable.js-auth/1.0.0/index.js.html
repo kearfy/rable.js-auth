@@ -168,7 +168,7 @@ class RableAuth {
                             message: 'A callback did not provide required data.'
                         }, {status:500})
                     } else {
-                        bcrypt.compare(req.body.password, user.password, (err, correctPassword) => {
+                        var passwordVerificationCallback = (err, correctPassword) => {
                             if (err) return res.json({
                                 success: false,
                                 error: 'server_error',
@@ -215,7 +215,13 @@ class RableAuth {
                                     message: 'An incorrect password was provided for the matched user.'
                                 });
                             }
-                        })
+                        }
+
+                        if (this.#callbacks.verifyPassword !== undefined) {
+                            this.#callbacks.verifyPassword(user[this.config.systemIdentifier], req.body.password, passwordVerificationCallback);
+                        } else {
+                            bcrypt.compare(req.body.password, user.password, passwordVerificationCallback);
+                        }
                     }
                 }
             } else {
