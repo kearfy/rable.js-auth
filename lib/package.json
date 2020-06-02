@@ -1,6 +1,6 @@
 {
   "name": "rable.js-auth",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The official authentication extention for rable.js",
   "main": "index.js",
   "repository": {
